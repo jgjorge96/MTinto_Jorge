@@ -1,33 +1,20 @@
-import React, {useState} from 'react'
-import {Button} from 'react-bootstrap'
+import React from 'react'
 
-export const ItemCount = () => {
-    const [counter, setCounter] = useState(1);
+export const ItemCount = ({max, setCounter, counter, onAdd}) => {
 
-    const increase = () => {
-        if(counter<=4){
-        setCounter(counter + 1);}
-        else {
-            alert("Maximo de stock disponible");
-        }
+    const handleDecrease = () => {
+        counter > 0 && setCounter(counter - 1)
     }
-
-    const decrease = () => {
-        if(counter>1){
-        setCounter(counter - 1);}
-        else {
-            alert("Sume un producto a la cesta");
-        }
+    const handleIncrease = () => {
+        counter < max && setCounter (counter + 1)
     }
-
     return (
-        <div>
+        <div className="my-3">
+            <button className="btn btn-outline-primary" onClick={handleDecrease}> - </button>
+            <span className="mx-2">{counter}</span>
+            <button className="btn btn-primary" onClick={handleIncrease}> + </button>
             <br/>
-            <h3>{counter}</h3>
-            <div>
-            <Button variant="outline-primary" onClick={decrease}>-</Button>
-            <Button variant="outline-primary" onClick={increase}>+</Button>
-            </div>
+            <button className="btn btn-success my-2" onClick={onAdd}>Agregar al carrito</button>
         </div>
     )
 }
