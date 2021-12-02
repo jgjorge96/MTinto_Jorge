@@ -25,7 +25,7 @@ export const CartView = ({name, price, counter, id}) => {
             <hr/>
             <div>
                 <button className="btn btn-danger" onClick={clearCart}>Vaciar</button>
-                <button className="btn btn-success">Finalizar</button>
+                <button className="btn btn-success mx-2">Finalizar</button>
             </div>
         </div>
     )
