@@ -1,18 +1,17 @@
-import React, {useState} from 'react'
+import React, {useContext, useState} from 'react'
 import { ItemCount } from '../ItemCount/ItemCount'
 import {Link} from 'react-router-dom'
+import { CartContext } from '../CartContext/CartContext'
 
 export const ItemDetail = ({id, name, img, desc, price, stock}) => {
 
+    const {addToCart, isInCart} = useContext(CartContext)
+
     const [counter, setCounter] = useState(1);
-    const [added, setAdded] = useState(false)
 
     const handleAdd = () => {
         if (counter > 0) {
-            console.log ('Producto Agregado', {
-            id, name, price, counter
-            })
-            setAdded (true)
+            addToCart({id, name, price, img, counter})
         }
     }
     return (
@@ -23,9 +22,9 @@ export const ItemDetail = ({id, name, img, desc, price, stock}) => {
             <p>Precio: ${price}</p>
 
             {
-                !added
-                ? <ItemCount max={stock} counter={counter} setCounter={setCounter} onAdd={handleAdd}/>
-                : <Link to="/cart" className="btn btn-success">Terminar mi compra</Link>
+                !isInCart(id)
+                    ? <ItemCount max={stock} counter={counter} setCounter={setCounter} onAdd={handleAdd}/>
+                    : <Link to="/cart" className="btn btn-success">Terminar mi compra</Link>
             }
         </div>
     )
