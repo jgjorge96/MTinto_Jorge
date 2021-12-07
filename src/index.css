@@ -29,13 +29,6 @@ code {
   margin: 0px 21px;
 }
 
-.cartWidget {
-  font-size: 35px;
-  left: 100px;
-  display: flex;
-  align-items: center;
-}
-
 .links {
   color: #212529;
   text-decoration: none;

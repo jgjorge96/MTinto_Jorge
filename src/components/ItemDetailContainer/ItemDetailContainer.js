@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react'
 import { useParams } from 'react-router'
 import { DataFunct } from '../../Extras/DataFunct'
 import { ItemDetail } from '../ItemDetail/ItemDetail'
+import { Loader } from '../Loader/Loader'
 
 export const ItemDetailContainer = () => {
 
@@ -27,7 +28,7 @@ export const ItemDetailContainer = () => {
         <div className="container my-5">
             {
                 loading
-                 ? <h2>Entrando a la cava...</h2>
+                 ? <Loader/>
                  : <ItemDetail {...item}/>
             }
 
