@@ -5,7 +5,7 @@ import './Loader.css'
 export const Loader = () => {
     return (
         <div className="loader">
-            <Spinner animation="border" size="lg" variant="primary"/>
+            <Spinner animation="border" size="lg"/>
         </div>
     )
 }
