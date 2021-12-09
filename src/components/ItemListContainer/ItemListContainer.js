@@ -1,8 +1,9 @@
 import React, { useState, useEffect } from 'react'
 import { ItemList } from '../ItemList/ItemList'
-import { DataFunct } from '../../Extras/DataFunct'
 import { useParams } from 'react-router'
 import { Loader } from '../Loader/Loader'
+import { collection, getDocs, where, query } from 'firebase/firestore/lite'
+import { db } from '../../firebase/config'
 
 export const ItemListContainer = ( {greeting}) => {
 
@@ -12,21 +13,22 @@ export const ItemListContainer = ( {greeting}) => {
 
    useEffect (() => {
        setLoading(true)
-       DataFunct()
-       .then((resp)=>{
-           if(!categoryId) {
-            setProductos(resp)
-           } else {
-               setProductos ( resp.filter( prod => prod.category === categoryId))
-           }
-           
-       })
-       .catch((error) => {
-            console.log(error)
-       })
-       .finally(()=>{
-           setLoading(false)
-       })
+       
+       const productsRef = collection(db, 'Products')
+       const q = categoryId ? query(productsRef, where('category', '==', categoryId)) : productsRef
+
+       getDocs(q)
+        .then((collection) => {
+            const items = collection.docs.map((doc) => ({
+                id: doc.id,
+                ...doc.data()
+            }))
+
+            setProductos(items)
+        })
+        .finally (() => {
+            setLoading(false)
+        })
    }, [categoryId])
 
     return (
