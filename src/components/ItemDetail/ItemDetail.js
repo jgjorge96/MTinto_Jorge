@@ -24,7 +24,10 @@ export const ItemDetail = ({id, name, img, desc, price, stock}) => {
             {
                 !isInCart(id)
                     ? <ItemCount max={stock} counter={counter} setCounter={setCounter} onAdd={handleAdd}/>
-                    : <Link to="/cart" className="btn btn-success">Terminar mi compra</Link>
+                    :   <div>
+                            <Link to="/cart" className="btn btn-success">Terminar mi compra</Link>
+                            <Link to="/cart" className="btn btn-primary mx-2"> Continuar compra</Link>
+                        </div>
             }
         </div>
     )
