@@ -1,0 +1,31 @@
+.cardImg {
+    background-image: url("fondoCard.svg");
+}
+.btnCard {
+    width: 176px;
+    height: 36px;
+    border:2px solid #171616;
+    align-items: center;
+    text-decoration: none;
+    background: none;
+    margin-left: 1.8vw;
+}
+.cardWine {
+    margin-left: 1.8vw;
+}
+h3 {
+    font-family: Calibri, 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 24.41px;
+    text-align: center;
+}
+p {
+    font-family: Calibri, 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 10px;
+    line-height: 12.21px;
+    text-align: center;
+}

@@ -1,0 +1,52 @@
+.navBar {
+    font-family: Calibri, 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+}
+
+hr {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 5vh;
+    bottom: 100%;
+    border: 1px solid #171616;
+    color: black;
+}
+.navBar h1 {
+    position: absolute;
+    left: 0.62%;
+    right: 85.89%;
+    top: -0.3%;
+    bottom: 97.46%;
+  }
+  .navBar ul {
+    color: #171616;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+
+    left: 40.76%;
+    right: 16.93%;
+    margin-top: 8.389vh;
+    margin-left: 30vw;
+    height: auto;
+    width: auto;
+  }
+  .navBar li {
+    margin: 0px 40px;
+    font-family: calibri, 'sans-serif';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 3.247vh;
+    line-height: 3.924vh;
+    color: #171616;
+    text-decoration: none;
+  }
+  
+  .links {
+    color: #212529;
+    text-decoration: none;
+  }

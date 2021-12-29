@@ -1,0 +1,164 @@
+.landing {
+    height: 116vh;
+    background-image: url("background.svg");
+    background-size: contain;
+    background-position: top;
+    background: cover;
+    background-repeat: no-repeat;
+}
+
+h5 {
+    font-family: Calibri, 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    font-style: normal;
+    font-size: 3.247vh;
+    font-weight: 300;
+    line-height: 3.924vh;
+    color: #9F9F9F;
+    position: absolute;
+    top: 125vh;
+    left: 9.756vw;
+}
+h2 {
+    font-family: 'Playfair Display' , sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 8.12vh;
+    line-height: 10.825vh;
+    position: absolute;
+    color: #000000;
+    top: 131vh;
+    left: 9.756vw;
+}
+h4 {
+    position: absolute;
+    text-align: center;
+    font-family: Calibri, 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 15px;
+    color: #FDFDFD;
+    top: 362vh;
+    left: 24.1vw;
+}
+
+.rutini {
+    position: absolute;
+    height: 65vh;
+    width: auto;
+    top: 150vh;
+    left: 20vw;
+}
+.american {
+    position: absolute;
+    height: 65vh;
+    width: auto;
+    top: 225vh;
+    left: 20vw;
+}
+
+footer {
+    margin-top: 16vw;
+    height: 62.381vh;
+    background-color: #171616;
+    background-size: contain;
+    background-position: top;
+    background: cover;
+    background-repeat: no-repeat;
+}
+
+.comprar {
+    background: transparent;
+    position: static;
+    width: 12.76vw;
+    height: 10vh;
+    margin-top: 72vh;
+    margin-left: 57.7vw;
+    border: none;
+}
+.buyButton {
+    height: 8vh;
+}
+.comprar2 {
+    background: transparent;
+    position: static;
+    width: 12.76vw;
+    height: 10vh;
+    margin-top: 66.4vh;
+    margin-left: 57.7vw;
+    border: none;
+}
+
+.logoFooter {
+    align-items: center;
+    position: absolute;
+    top: 340.3vh;
+    left: 40vw;
+}
+.logoFooter2 {
+    position: absolute;
+    margin-top: 7.171vh;
+    height: 7.3vh;
+    width: 10.416vw;
+    left: 9.765vw;
+}
+.footerNav li{
+    margin: 0px 40px;
+    font-family: calibri, 'sans-serif';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 3.247vh;
+    line-height: 3.924vh;
+    color: #FDFDFD;
+    text-decoration: none;
+}
+.footerNav ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+
+    left: 20.76%;
+    right: 16.93%;
+    margin-top: 8.6vh;
+    height: auto;
+    width: auto;
+}
+.links {text-decoration: none;}
+
+.headerNav ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+
+    left: 40.76%;
+    right: 16.93%;
+    margin-top: 8.389vh;
+    margin-left: 30vw;
+    height: auto;
+    width: auto;
+}
+.headerNav li{
+    margin: 0px 40px;
+    font-family: calibri, 'sans-serif';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 3.247vh;
+    line-height: 3.924vh;
+    color: #FDFDFD;
+    text-decoration: none;
+}
+.logoHeader {
+    position: absolute;
+    margin-top: 7.171vh;
+    height: 7.3vh;
+    width: 10.416vw;
+    left: 7.5vw;
+}

@@ -1,28 +1,11 @@
 import React from 'react'
-import { Container, Row } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
-import { Footer } from '../Footer/Footer'
-import { Item } from '../Item/Item'
-import './ItemList.css'
+import './Footer.css'
 import logo from './logo.svg'
 
-export const ItemList = ({items}) => {
+export const Footer = () => {
     return (
-        <div>
-            <nav className="category">
-                    <ul>
-                        <Link to="/" className="links"><li>Todos</li></Link>
-                        <Link to="/category/tinto" className="links"><li>Tinto</li></Link>
-                        <Link to="/category/blanco" className="links"><li>Blanco</li></Link>
-                        <Link to="/category/rosado" className="links"><li>Rosado</li></Link>
-                    </ul>
-             </nav>
-            <div className="container my-5">
-                <Row>
-                    {items.map((prod) => <Item key={prod.id} {...prod}/>)}
-                </Row>
-            </div>
-            <footer>
+        <footer>
                 <nav className='footerNav'>
                     <Link to="/"><img src={logo} alt="magito tinto" className='logoFooter2 footerNav'/></Link>
                     <ul>
@@ -38,6 +21,5 @@ export const ItemList = ({items}) => {
                     No se vende a menores de 18 años | Ley de consumo responsable
                 </h4>
             </footer>
-        </div>
     )
 }

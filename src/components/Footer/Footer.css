@@ -1,0 +1,52 @@
+.logoFooter {
+    align-items: center;
+    position: absolute;
+    top: 140vh;
+    left: 40vw;
+}
+.logoFooter2 {
+    position: absolute;
+    margin-top: 7.171vh;
+    height: 7.3vh;
+    width: 10.416vw;
+    left: 9.765vw;
+}
+.footerNav li{
+    margin: 0px 40px;
+    font-family: calibri, 'sans-serif';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 3.247vh;
+    line-height: 3.924vh;
+    color: #FDFDFD;
+    text-decoration: none;
+}
+.footerNav ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+
+    left: 20.76%;
+    right: 16.93%;
+    margin-top: 8.6vh;
+    height: auto;
+    width: auto;
+}
+.links {text-decoration: none;}
+
+h4 {
+    position: absolute;
+    text-align: center;
+    font-family: Calibri, 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 15px;
+    color: #FDFDFD;
+    top: 165vh;
+    left: 24.1vw;
+}

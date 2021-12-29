@@ -1,0 +1,48 @@
+.inputForm1 {
+    position: absolute;
+    width: 69.791vw;
+    height: 9.742vh;
+    left: 0%;
+    right: 0%;
+    top: 20vh;
+    bottom: 0%;
+    border: 2px solid #171616;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+.inputForm2 {
+    position: absolute;
+    width: 69.791vw;
+    height: 9.742vh;
+    left: 0%;
+    right: 0%;
+    top: 40vh;
+    bottom: 0%;
+    border: 2px solid #171616;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+.inputForm3 {
+    position: absolute;
+    width: 69.791vw;
+    height: 9.742vh;
+    left: 0%;
+    right: 0%;
+    top: 60vh;
+    bottom: 0%;
+    border: 2px solid #171616;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+.inputForm4 {
+    position: absolute;
+    width: 69.791vw;
+    height: 9.742vh;
+    left: 0%;
+    right: 0%;
+    top: 80vh;
+    bottom: 0%;
+    border: 2px solid #171616;
+    box-sizing: border-box;
+    border-radius: 4px;
+}

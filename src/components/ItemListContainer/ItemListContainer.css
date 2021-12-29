@@ -1,0 +1,8 @@
+.copa {
+    height: 116vh;
+    background-image: url("copa.svg");
+    background-size: contain;
+    background-position: top;
+    background: cover;
+    background-repeat: no-repeat;
+}

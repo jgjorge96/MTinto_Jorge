@@ -5,6 +5,7 @@ import { Navigate } from 'react-router-dom'
 import { db } from '../../firebase/config'
 import {getDoc, doc, updateDoc, addDoc, collection, Timestamp, writeBatch, query, where, documentId, getDocs } from 'firebase/firestore/lite'
 import { async, deepCopy } from '@firebase/util'
+import './Checkout.css'
 
 export const Checkout = () => {
 
@@ -115,7 +116,7 @@ export const Checkout = () => {
                             onChange={handleInputChange}
                             name="nombre"
                             value={values.nombre}
-                            className="form-control my-2"
+                            className="inputForm1"
                             type="text"placeholder="nombre"
                         />
                         {values.nombre.length < 4 && <small>Nombre invalido</small>}
@@ -124,7 +125,7 @@ export const Checkout = () => {
                             onChange={handleInputChange}
                             name="apellido"
                             value={values.apellido}
-                            className="form-control my-2"
+                            className="inputForm2"
                             type="text"placeholder="apellido"
                         />
                         {values.apellido.length < 4 && <small>Apellido invalido</small>}
@@ -133,7 +134,7 @@ export const Checkout = () => {
                             onChange={handleInputChange}
                             name="email"
                             value={values.email}
-                            className="form-control my-2"
+                            className="inputForm3"
                             type="email"placeholder="email"
                         />
                         {values.email.length < 4 && <small>Email invalido</small>}
@@ -142,7 +143,7 @@ export const Checkout = () => {
                             onChange={handleInputChange}
                             name="emailConfirm"
                             value={values.emailConfirm}
-                            className="form-control my-2"
+                            className="inputForm4"
                             type="email"placeholder="Repita email"
                         />
                         {values.emailConfirm !== values.email && <small>Los Emails no coinciden</small>}

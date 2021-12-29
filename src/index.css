@@ -1,37 +1,5 @@
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
-
-.navBar h1 {
-  position: absolute;
-  left: 0.62%;
-  right: 85.89%;
-  top: -0.3%;
-  bottom: 97.46%;
-}
-.navBar ul {
-  color: #212529;
-  list-style-type: none;
-  display: flex;
-  flex-direction: row;
-  position: absolute;
-  left: 20.76%;
-  right: 16.93%;
-  top: 2%;
-  height: auto;
-  width: auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.navBar li {
-  margin: 0px 21px;
-}
-
-.links {
-  color: #212529;
-  text-decoration: none;
+  font-family: Calibri, 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
 }
 
 .loading {

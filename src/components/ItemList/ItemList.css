@@ -1,0 +1,88 @@
+.category {
+    height: 116vh;
+    background-image: url("copa.svg");
+    background-size: contain;
+    background-position: top;
+    background: cover;
+    background-repeat: no-repeat;
+    margin-top: 12.99vh;
+}
+.category ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+
+    left: 20.76%;
+    right: 16.93%;
+    margin-top: 106.495vh;
+    height: auto;
+    width: auto;
+}
+.category li {
+    margin: 0px 40px;
+    font-family: calibri, 'sans-serif';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 3.247vh;
+    line-height: 3.924vh;
+    color: #171616;
+    text-decoration: none;
+}
+.links {text-decoration: none;}
+
+.logoFooter {
+    align-items: center;
+    position: absolute;
+    margin-top: -70vh;
+    left: 40vw;
+}
+.logoFooter2 {
+    position: absolute;
+    margin-top: 7.171vh;
+    height: 7.3vh;
+    width: 10.416vw;
+    left: 9.765vw;
+}
+.footerNav li{
+    margin: 0px 40px;
+    font-family: calibri, 'sans-serif';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 3.247vh;
+    line-height: 3.924vh;
+    color: #FDFDFD;
+    text-decoration: none;
+}
+.footerNav ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+
+    left: 20.76%;
+    right: 16.93%;
+    margin-top: 8.6vh;
+    height: auto;
+    width: auto;
+}
+.links {text-decoration: none;}
+
+h4 {
+    position: absolute;
+    text-align: center;
+    font-family: Calibri, 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 15px;
+    color: #FDFDFD;
+    margin-top: -66vh;
+    left: 24.1vw;
+}
