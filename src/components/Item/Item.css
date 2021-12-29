@@ -1,5 +1,7 @@
 .cardImg {
     background-image: url("fondoCard.svg");
+    text-align: center;
+    
 }
 .btnCard {
     width: 176px;
@@ -8,10 +10,11 @@
     align-items: center;
     text-decoration: none;
     background: none;
-    margin-left: 1.8vw;
 }
 .cardWine {
-    margin-left: 1.8vw;
+    margin-left: auto;
+    height: 15vw;
+    object-fit: cover;
 }
 h3 {
     font-family: Calibri, 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;

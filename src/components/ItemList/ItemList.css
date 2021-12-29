@@ -37,7 +37,7 @@
 .logoFooter {
     align-items: center;
     position: absolute;
-    margin-top: -70vh;
+    margin-top: 130vh;
     left: 40vw;
 }
 .logoFooter2 {
@@ -83,6 +83,6 @@ h4 {
     font-size: 12px;
     line-height: 15px;
     color: #FDFDFD;
-    margin-top: -66vh;
+    margin-top: 130vh;
     left: 24.1vw;
 }
