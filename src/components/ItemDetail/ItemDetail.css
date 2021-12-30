@@ -1,0 +1,88 @@
+.detailImg {
+    position: absolute;
+    height: 85.656vh;
+    margin-top: 12.719vh;
+}
+.h5 {
+    position: absolute;
+    color: #9F9F9F;
+    margin-left: 21.5vw;
+    margin-top: -103vh;
+    font-family: Calibri, 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    font-style: normal;
+    font-size: 3.247vh;
+    font-weight: 300;
+    line-height: 3.924vh;
+}
+.h2 {
+    font-family: 'Playfair Display' , sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 8.12vh;
+    line-height: 10.825vh;
+    position: absolute;
+    color: #000000;
+    margin-left: 21.5vw;
+    margin-top: -103vh;
+}
+.h3 {
+    font-family: 'Playfair Display';
+    font-size: 4.6vh;
+    line-height: 6.089vh;
+    position: absolute;
+    margin-top: 33.3vh;
+    margin-left: 23.2vw;
+    color: #3f3f3f;
+}
+.p {
+    position: absolute;
+    font-family: calibri;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 3.247vh;
+    line-height: 3.924vh;
+    color: #171616;
+    text-align: left;
+    margin-left: 47vh;
+    width: 55vw;
+    margin-top: 44vh;
+}
+.hr {
+    position: absolute;
+    left: 31.5%;
+    right: 8.7%;
+    top: 73.3%;
+    border: 1px solid #3f3f3f;
+}
+.h4 {
+    text-align: left;
+    font-family: calibri;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 3.247vh;
+    line-height: 3.924vh;
+    color: #3f3f3f;
+}
+.uva {
+    left: 31.5%;
+    top: 78.6%;
+}
+.year {
+    left: 31.5%;
+    top: 89.5%;
+}
+.alcohol {
+    left: 44%;
+    top: 89.5%;
+}
+.volumen {
+    left: 71.17%;
+    top: 89.5%;
+}
+.hr2 {
+    position: absolute;
+    left: 31.5%;
+    right: 8.7%;
+    top: 100.4%;
+    border: 1px solid #3f3f3f;
+}

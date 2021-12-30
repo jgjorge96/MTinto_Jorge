@@ -38,7 +38,7 @@ h4 {
     font-size: 12px;
     line-height: 15px;
     color: #FDFDFD;
-    top: 362vh;
+    top: 232vh;
     left: 24.1vw;
 }
 
@@ -92,7 +92,7 @@ footer {
 .logoFooter {
     align-items: center;
     position: absolute;
-    top: 340.3vh;
+    margin-top: 200vh;
     left: 40vw;
 }
 .logoFooter2 {

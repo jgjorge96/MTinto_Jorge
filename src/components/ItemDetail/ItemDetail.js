@@ -2,8 +2,9 @@ import React, {useContext, useState} from 'react'
 import { ItemCount } from '../ItemCount/ItemCount'
 import {Link} from 'react-router-dom'
 import { CartContext } from '../CartContext/CartContext'
+import './ItemDetail.css'
 
-export const ItemDetail = ({id, name, img, desc, price, stock}) => {
+export const ItemDetail = ({id, name, img, desc, price, stock, tipo, uva, volumen, year, alcohol}) => {
 
     const {addToCart, isInCart} = useContext(CartContext)
 
@@ -15,11 +16,18 @@ export const ItemDetail = ({id, name, img, desc, price, stock}) => {
         }
     }
     return (
-        <div>
-            <h2>{name}</h2>
-            <img src={img} alt={name} className="cardImg"/>
-            <p>{desc}</p>
-            <p>Precio: ${price}</p>
+        <div className='container my-5'>
+            <img src={img} alt={name} className="detailImg"/>
+            <h5 className='h5'>{tipo}</h5>
+            <h2 className='h2'>{name}</h2>
+            <h3 className='h3'>${price}</h3>
+            <p className='p'>{desc}</p>
+            <hr className='hr'/>
+            <h4 className='h4 uva'>UVAS<br/>{uva}</h4>
+            <h4 className='h4 year'>AÑO<br/>{year}</h4>
+            <h4 className='h4 alcohol'>CONTENIDO DE ALCOHOL<br/>{alcohol}%</h4>
+            <h4 className='h4 volumen'>VOLUMEN<br/>{volumen} ml</h4>
+            <hr className='hr2'/>
 
             {
                 !isInCart(id)

@@ -1,0 +1,38 @@
+.btnAdd {
+    text-align: center;
+    background: #830101;
+    border-radius: 4px;
+    font-family: calibri;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3.247vh;
+    line-height: 3.964vh;
+    color: #fdfdfd;
+    width: 16.145vw;
+    height: 6.089vh;  
+}
+.btnStyle {
+    background: #171616;
+    border-radius: 4px;
+    color: #fdfdfd;
+    height: 6.089vh;
+    width: 6.089vh;
+}
+.btnEdit {
+    margin-top: -9.8vh;
+    margin-left: 66.1vw; 
+}
+.btnPos {
+    margin-top: 100vh;
+    margin-left: 55.5vw; 
+}
+.btnPos2 {
+    margin-top: -8.8vh;
+    margin-left: 60.5vw; 
+}
+.counter {
+    margin-top: -5.5vh;
+    margin-left: 59vw; 
+    color: #171616;
+    font-size: 3.247vh;
+}

@@ -1,4 +1,5 @@
 import React from 'react'
+import './ItemCount.css'
 
 export const ItemCount = ({max, setCounter, counter, onAdd}) => {
 
@@ -9,12 +10,12 @@ export const ItemCount = ({max, setCounter, counter, onAdd}) => {
         counter < max && setCounter (counter + 1)
     }
     return (
-        <div className="my-3">
-            <button className="btn btn-outline-primary" disabled={counter === 0} onClick={handleDecrease}> - </button>
-            <span className="mx-2">{counter}</span>
-            <button className="btn btn-primary" disabled={counter === max} onClick={handleIncrease}> + </button>
-            <br/>
-            <button className="btn btn-success my-2" disabled={counter === 0} onClick={onAdd}>Agregar al carrito</button>
+        <div>
+            <button className="btn btnStyle btnPos" disabled={counter === 0} onClick={handleDecrease}> - </button>
+            <div className='counter'><span>{counter}</span></div>
+            <button className="btn btnStyle btnPos2" disabled={counter === max} onClick={handleIncrease}> + </button>
+            <div className='btnEdit'><button className="btn my-2 btnAdd" disabled={counter === 0} onClick={onAdd}>Agregar al carrito</button></div>
+            <div className='btnPos'></div>
         </div>
     )
 }
