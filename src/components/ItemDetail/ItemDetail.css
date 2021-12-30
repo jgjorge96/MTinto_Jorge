@@ -51,7 +51,7 @@
     position: absolute;
     left: 31.5%;
     right: 8.7%;
-    top: 73.3%;
+    top: 95.598vh;
     border: 1px solid #3f3f3f;
 }
 .h4 {
@@ -65,25 +65,25 @@
 }
 .uva {
     left: 31.5%;
-    top: 78.6%;
+    top: 101.298vh;
 }
 .year {
     left: 31.5%;
-    top: 89.5%;
+    top: 112.098vh;
 }
 .alcohol {
     left: 44%;
-    top: 89.5%;
+    top: 112.098vh;
 }
 .volumen {
     left: 71.17%;
-    top: 89.5%;
+    top: 112.098vh;
 }
 .hr2 {
     position: absolute;
     left: 31.5%;
     right: 8.7%;
-    top: 100.4%;
+    top: 123.298vh;
     border: 1px solid #3f3f3f;
 }
 .btnConf {

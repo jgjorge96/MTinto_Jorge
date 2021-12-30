@@ -1,7 +1,11 @@
+.footer {
+    background-color: #171616;
+    height: 65.087vh;
+}
 .logoFooter {
     align-items: center;
     position: absolute;
-    top: 140vh;
+    top: 170vh;
     left: 40vw;
 }
 .logoFooter2 {
@@ -47,6 +51,6 @@ h4 {
     font-size: 12px;
     line-height: 15px;
     color: #FDFDFD;
-    top: 165vh;
+    margin-top: 7.3vh;
     left: 24.1vw;
 }

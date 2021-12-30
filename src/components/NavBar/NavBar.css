@@ -1,5 +1,7 @@
 .navBar {
     font-family: Calibri, 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    background-color: #fdfdfd;
+    height: 22.598vh;
 }
 
 hr {

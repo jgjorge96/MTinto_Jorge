@@ -5,7 +5,7 @@
     background-position: top;
     background: cover;
     background-repeat: no-repeat;
-    margin-top: 12.99vh;
+    margin-top: 0vh;
 }
 .category ul {
     list-style-type: none;
@@ -83,6 +83,6 @@
     font-size: 12px;
     line-height: 15px;
     color: #FDFDFD;
-    margin-top: 125vh;
+    margin-top: 108vh;
     left: 24.1vw;
 }

@@ -15,7 +15,7 @@ h5 {
     line-height: 3.924vh;
     color: #9F9F9F;
     position: absolute;
-    top: 125vh;
+    top: 147.598vh;
     left: 9.756vw;
 }
 h2 {
@@ -26,7 +26,7 @@ h2 {
     line-height: 10.825vh;
     position: absolute;
     color: #000000;
-    top: 131vh;
+    top: 153.589vh;
     left: 9.756vw;
 }
 h4 {
@@ -38,7 +38,7 @@ h4 {
     font-size: 12px;
     line-height: 15px;
     color: #FDFDFD;
-    top: 362vh;
+    top: 384.598vh;
     left: 24.1vw;
 }
 
@@ -46,14 +46,14 @@ h4 {
     position: absolute;
     height: 65vh;
     width: auto;
-    top: 150vh;
+    top: 172.598vh;
     left: 20vw;
 }
 .american {
     position: absolute;
     height: 65vh;
     width: auto;
-    top: 225vh;
+    top: 247.5vh;
     left: 20vw;
 }
 
@@ -71,7 +71,7 @@ footer {
     background: transparent;
     position: static;
     width: 12.76vw;
-    height: 10vh;
+    height: 28vh;
     margin-top: 72vh;
     margin-left: 57.7vw;
     border: none;
@@ -84,7 +84,7 @@ footer {
     position: static;
     width: 12.76vw;
     height: 10vh;
-    margin-top: 66.4vh;
+    margin-top: 56vh;
     margin-left: 57.7vw;
     border: none;
 }

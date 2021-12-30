@@ -1,0 +1,39 @@
+.hh2 {
+    position: absolute;
+    top: 26.387vh;
+}
+.cardH {
+    margin-top: 13vw;
+}
+.btnTrash {
+    margin-left: 14vw;
+}
+.btnConf1 {
+    border: 2px solid #171616;
+    box-sizing: border-box;
+    border-radius: 2px;
+    margin-top: -3.4vh;
+    margin-left: 60.5vw; 
+    height: 5.3vh; 
+}
+.btnConf3 {
+    border: 2px solid #171616;
+    box-sizing: border-box;
+    border-radius: 2px;
+    margin-top: 15vh;
+    margin-left: 2.1vw; 
+    height: 5.3vh; 
+}
+.btn11 {
+    background: #830101;
+}
+.p1 {
+    position: absolute;
+    font-family: Calibri;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 3.247vh;
+    line-height: 3.924vh;
+    color: #3f3f3f;
+    margin-left: 3.3vw;
+}

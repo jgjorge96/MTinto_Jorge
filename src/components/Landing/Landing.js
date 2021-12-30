@@ -5,21 +5,12 @@ import american from './american.svg'
 import button from './buyButton.svg'
 import { Link } from 'react-router-dom'
 import logo from './logo.svg'
+import { Footer } from '../Footer/Footer'
 
 export const Landing = () => {
     return (
         <div>
-            <section className='landing'>
-                <nav className='headerNav'>
-                    <Link to="/"><img src={logo} alt="magito tinto" className='logoHeader headerNav'/></Link>
-                    <ul>
-                        <Link to="/cart" className="links"><li>Home</li></Link>
-                        <Link to="/" className="links"><li>Shop</li></Link>
-                        <Link to="/" className="links"><li>Nosotros</li></Link>
-                        <Link to="/" className="links"><li>Contacto</li></Link>
-                    </ul>
-                </nav>
-            </section>
+            <section className='landing'></section>
             <section>
                 <h5>RECOMENDADOS</h5>
                 <h2>Nuestros favoritos</h2>
@@ -36,7 +27,7 @@ export const Landing = () => {
                 </Link>
                 
             </section>
-            <footer>
+            {/* <footer>
                 <nav className='footerNav'>
                     <Link to="/"><img src={logo} alt="magito tinto" className='logoFooter2 footerNav'/></Link>
                     <ul>
@@ -51,7 +42,8 @@ export const Landing = () => {
                     2021 Magico Tinto | Ploticas de privaciodad | Terminos y condiciones | Beber con moderación. 
                     No se vende a menores de 18 años | Ley de consumo responsable
                 </h4>
-            </footer>
+            </footer> */}
+            <Footer/>
         </div>
     )
 }
