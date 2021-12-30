@@ -86,3 +86,24 @@
     top: 100.4%;
     border: 1px solid #3f3f3f;
 }
+.btnConf {
+    border: 2px solid #171616;
+    box-sizing: border-box;
+    border-radius: 2px;
+    margin-top: 100vh;
+    margin-left: 55.5vw; 
+}
+.btnConf2 {
+    text-align: center;
+    height: 5.3vh;
+    width: 12vw;
+    background: #171616;
+    border-radius: 4px;
+    margin-top: -5.5vh;
+    margin-left: 70.5vw; 
+    color: #fdfdfd;
+}
+.btn12 {
+    text-align: center;
+    color: #fdfdfd;
+}
