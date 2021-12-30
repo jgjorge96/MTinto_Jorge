@@ -34,10 +34,10 @@
 }
 .links {text-decoration: none;}
 
-.logoFooter {
+.logoFooter1 {
     align-items: center;
     position: absolute;
-    margin-top: 130vh;
+    margin-top: 29vh;
     left: 40vw;
 }
 .logoFooter2 {
@@ -74,7 +74,7 @@
 }
 .links {text-decoration: none;}
 
-h4 {
+.hh4 {
     position: absolute;
     text-align: center;
     font-family: Calibri, 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
@@ -83,6 +83,6 @@ h4 {
     font-size: 12px;
     line-height: 15px;
     color: #FDFDFD;
-    margin-top: 130vh;
+    margin-top: 125vh;
     left: 24.1vw;
 }

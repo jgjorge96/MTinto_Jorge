@@ -32,8 +32,8 @@ export const ItemList = ({items}) => {
                         <Link to="/" className="links"><li>Contacto</li></Link>
                     </ul>
                 </nav>
-                <Link to="/landing"><img src={logo} alt="magito tinto" className='logoFooter'/></Link>
-                <h4>
+                <Link to="/landing"><img src={logo} alt="magito tinto" className='logoFooter1'/></Link>
+                <h4 className='hh4'>
                     2021 Magico Tinto | Ploticas de privaciodad | Terminos y condiciones | Beber con moderación. 
                     No se vende a menores de 18 años | Ley de consumo responsable
                 </h4>
