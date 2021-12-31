@@ -13,7 +13,7 @@ export const CartView = () => {
             <div className="container my-5">
                     <h2 className='hh2'>Tu bodega esta vacia</h2>
                     <hr/>
-                    <Link to="/" className="btn btnConf3">Volver a la tienda</Link>
+                    <Link to="/shop" className="btn btnConf3">Volver a la tienda</Link>
             </div>
         )
     }

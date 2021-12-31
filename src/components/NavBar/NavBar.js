@@ -11,10 +11,10 @@ export const NavBar = () => {
             <Link to="/"><img src={logo} alt="magito tinto" className='logoHeader headerNav'/></Link>
             <nav>
                 <ul>
-                    <Link to="/category/tinto" className="links"><li>Home</li></Link>
-                    <Link to="/category/blanco" className="links"><li>Shop</li></Link>
-                    <Link to="/category/rosado" className="links"><li>Nosotros</li></Link>
-                    <Link to="/category/rosado" className="links"><li>Contacto</li></Link>
+                    <Link to="/" className="links"><li>Home</li></Link>
+                    <Link to="/shop" className="links"><li>Shop</li></Link>
+                    <Link to="/" className="links"><li>Nosotros</li></Link>
+                    <Link to="/" className="links"><li>Contacto</li></Link>
                  </ul>
              </nav>
              <CartWidget/>

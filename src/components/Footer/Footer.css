@@ -1,12 +1,9 @@
 .footer {
-    background-color: #171616;
-    height: 65.087vh;
-}
-.logoFooter {
-    align-items: center;
-    position: absolute;
-    top: 170vh;
-    left: 40vw;
+    background: url("footer.svg");
+    height: 49.1vh;
+    background-size: contain;
+    background: cover;
+    background-repeat: no-repeat;
 }
 .logoFooter2 {
     position: absolute;

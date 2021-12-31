@@ -1,7 +1,7 @@
 import React, {useContext, useState } from 'react'
 import { CartContext } from '../CartContext/CartContext'
 import Swal from 'sweetalert2'
-import { Navigate } from 'react-router-dom'
+import { Link, Navigate } from 'react-router-dom'
 import { db } from '../../firebase/config'
 import {getDoc, doc, updateDoc, addDoc, collection, Timestamp, writeBatch, query, where, documentId, getDocs } from 'firebase/firestore/lite'
 import { async, deepCopy } from '@firebase/util'
@@ -108,47 +108,52 @@ export const Checkout = () => {
         <>
                 {cart.length === 0 && <Navigate to="/"/>}
                 <div className="container my-5">
-                    <h2>Completa con tus datos</h2>
+                    <h2 className='hh2'>Completa con tus datos</h2>
                     <hr/>
 
                     <form onSubmit={handleSubmit}>
+                        <label className='label1'>Nombre</label>
                         <input
                             onChange={handleInputChange}
                             name="nombre"
                             value={values.nombre}
                             className="inputForm1"
-                            type="text"placeholder="nombre"
+                            type="text"placeholder="Por ej. Emiliano"
                         />
-                        {values.nombre.length < 4 && <small>Nombre invalido</small>}
+                        {values.nombre.length < 4 && <div className='small1'>Nombre invalido</div>}
 
+                        <label className='label2'>Apellido</label>
                         <input
                             onChange={handleInputChange}
                             name="apellido"
                             value={values.apellido}
                             className="inputForm2"
-                            type="text"placeholder="apellido"
+                            type="text"placeholder="Por ej. Perez"
                         />
-                        {values.apellido.length < 4 && <small>Apellido invalido</small>}
+                        {values.apellido.length < 4 && <div className='small2'>Apellido invalido</div>}
 
+                        <label className='label3'>Email</label>
                         <input
                             onChange={handleInputChange}
                             name="email"
                             value={values.email}
                             className="inputForm3"
-                            type="email"placeholder="email"
+                            type="email"placeholder="Por ej. emilianoperez@gmail.com"
                         />
-                        {values.email.length < 4 && <small>Email invalido</small>}
+                        {values.email.length < 4 && <div className='small3'>Email invalido</div>}
 
+                        <label className='label4'>Confirma tu email</label>
                         <input
                             onChange={handleInputChange}
                             name="emailConfirm"
                             value={values.emailConfirm}
                             className="inputForm4"
-                            type="email"placeholder="Repita email"
+                            type="email"placeholder=""
                         />
-                        {values.emailConfirm !== values.email && <small>Los Emails no coinciden</small>}
+                        {values.emailConfirm !== values.email && <div className='small4'>Los Emails no coinciden</div>}
 
-                        <button type="submit" className="btn btn-primary">Enviar</button>
+                        <div><Link to="/cart" className="btn btnCheck2">Continuar comprando</Link></div>
+                        <button type="submit" className="btn btnCheck">Pagar</button>
                     </form>
                 </div>
         </>
