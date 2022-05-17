@@ -1,9 +1,6 @@
-# Instrucciones para levantar el repo localmente
+# E-Commerce de la vinoteca Magito Tinto
 
-1-> tener cuenta de github para clonar el repo
-2-> tener instalado node.js y npm
-3-> iniciar el VScode en una carpeta nueva, entrar al repo y clonarlo
-4-> poner en consola el comando npm start y se deberia abrir solo en el navegador
+E-commerce realizado con react.js para la vinoteca magico tinto, se trabajo a la par con una diseñadora ux para darle la mejor experiencia a la pagina y al usuario
 
-De faltar algunas dependencias la consola indica cuales y como instalarlas, pero deberia estar todo bien!!! 
+Web: https://magicotinto.netlify.app/
 
